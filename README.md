@@ -8,7 +8,7 @@ Program simulasi pengelolaan aktor (pasien), layanan medis, pemrosesan transaksi
 
 * **Digit Pertama (0) - Tema & Main Class:**
   * Tema: **Sistem Rumah Sakit** (`MainRumahSakit`).
-  * Menerapkan pilar Pemrograman Berorientasi Objek (Class, Encapsulation, Inheritance, Polymorphism, Association) dan Custom Exception tanpa mengubah kode pada metode `main`.
+
 * **Digit Kedua (0) - Format Delimiter Input (`input_transaksi.txt`):**
   * Format pemisah baris khusus: `ID>...KD>...JML>...` diakhiri titik.
   * Pembacaan data dilakukan secara akurat di dalam blok `try-catch` dengan penanganan data tidak valid.
@@ -44,20 +44,6 @@ RumahSakit/
 
 ---
 
-## 💡 Penerapan Konsep PBO
-
-1. **Encapsulation:** 
-   Seluruh atribut pada class `Aktor`, `ItemLayanan`, dan `SistemRumahSakit` menggunakan akses `private` dengan method *getter/setter* yang aman.
-2. **Inheritance (Pewarisan):** 
-   * `Pasien` mewarisi properti dan method dari `Aktor`.
-   * `LayananMedis` mewarisi properti dan method dari `ItemLayanan`.
-3. **Polymorphism (Polimorfisme):**
-   * *Method Overriding* `getDeskripsi()` pada class `Pasien`.
-   * *Method Overriding* `hitungTotal(int jumlah)` pada class `LayananMedis`.
-4. **Association (Asosiasi):** 
-   Class `SistemRumahSakit` berasosiasi dengan banyak `Pasien` dan `LayananMedis` melalui koleksi `HashMap<String, Pasien>` dan `HashMap<String, LayananMedis>`.
-5. **Custom Exception:** 
-   Class `TransaksiException` dilempar (*thrown*) ketika ID Pasien atau Kode Layanan tidak ditemukan di sistem (misal: `ACT-99`), dan ditangkap (*caught*) dalam perulangan sehingga proses pembacaan file dapat terus berlanjut.
 
 ---
 
