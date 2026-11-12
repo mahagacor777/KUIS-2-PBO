@@ -62,7 +62,7 @@ RumahSakit/
 
 ---
 
-## 📄 Format Input (`input_transaksi.txt`)
+## Format Input (`input_transaksi.txt`)
 
 ```text
 ID>ACT-01.KD>OBJ-A.JML>3.
@@ -74,7 +74,7 @@ ID>ACT-02.KD>OBJ-A.JML>1.
 
 ---
 
-## 🖥️ Contoh Output Eksekusi
+## Contoh Output 
 
 ```text
 --- MEMULAI PEMBACAAN FILE TRANSAKSI ---
@@ -94,18 +94,5 @@ ID Aktor: ACT-02 | Nama: Doni
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
 
-### Menggunakan Apache NetBeans
-1. Buka Apache NetBeans.
-2. Pilih menu **File > Open Project...** lalu arahkan ke folder `RumahSakit`.
-3. Klik kanan pada proyek `RumahSakit` dan pilih **Run** (atau tekan `F6`).
-
-### Menggunakan Terminal / Command Prompt
-```bash
-# Kompilasi seluruh file source code
-javac -d build/classes src/rumahsakit/*.java
-
-# Jalankan program
-java -cp build/classes rumahsakit.MainRumahSakit
 ```
