@@ -1,0 +1,3 @@
+=== DAFTAR AKTOR AKTIF (PASIEN) ===
+ID: ACT-01 | Nama: Cici
+ID: ACT-02 | Nama: Doni

@@ -1,0 +1,14 @@
+# NetBeans build outputs
+build/
+dist/
+
+# NetBeans user-specific private settings
+nbproject/private/
+
+# Compiled Java bytecode
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
