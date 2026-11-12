@@ -34,8 +34,7 @@ RumahSakit/
 │       ├── TransaksiException.java # Custom Exception untuk validasi transaksi
 │       ├── SistemRumahSakit.java   # Controller sistem (Association, HashMap, File I/O, Serialization)
 │       └── MainRumahSakit.java     # Main Class entry point
-├── build.xml                  # Ant build file NetBeans
-├── manifest.mf                # Java manifest file
+
 ├── input_transaksi.txt        # File input transaksi
 ├── laporan_aktor.txt          # File output laporan teks daftar pasien aktif
 ├── sistem_state.ser           # File biner hasil object serialization
